@@ -1,0 +1,54 @@
+/* CSS HEX
+#F1FAEE = Honeydew
+#A8DADC - Powder Blue
+#262730 - Raisin Black
+#343434 - Almost Black
+#F7FFF7 - Almost White
+*/
+
+/* global styles
+-------------------------------------------- */
+body {
+  color: #343434;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 300px;
+  height: 225px;
+}
+
+/* profile
+-------------------------------------------- */
+header {
+  background-color: #262730;
+  color: #f7fff7;
+}
+
+/* projects
+-------------------------------------------- */
+.projects {
+  background-color: #f1faee;
+}
+
+/* work experience
+-------------------------------------------- */
+.work-experience {
+  background-color: #a8dadc;
+}
+
+/* education
+-------------------------------------------- */
+.education {
+  background-image: url(/placeholder\ images/sharon-mccutcheon-unsplash.jpg);
+  background-size: cover;
+  background-position: top right;
+}
+
+/* contact
+-------------------------------------------- */
+footer {
+  background-color: #262730;
+  color: #f7fff7;
+}
