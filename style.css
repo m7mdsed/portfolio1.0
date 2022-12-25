@@ -8,25 +8,49 @@
 
 /* global styles
 -------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Sanchez&display=swap");
+
 body {
   color: #343434;
   padding: 0;
   margin: 0;
+  font-family: montserrat;
+  line-height: 1.5;
+  font-size: 15px;
 }
 img {
   width: 300px;
   height: 225px;
 }
-
 .content-wrap {
   width: 900px;
   margin: 0 auto;
   padding: 110px 0;
 }
-
 .flex-container {
   display: flex;
   flex-direction: column;
+}
+h1 {
+  line-height: 1;
+  font-size: 90px;
+}
+h2 {
+  font-size: 35px;
+}
+h1,
+h2 {
+  font-family: sanchez;
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
+a {
+  color: khaki;
+}
+a:hover {
+  text-decoration: none;
 }
 
 /* profile
@@ -34,12 +58,30 @@ img {
 header {
   background-color: #262730;
   color: #f7fff7;
+  text-align: center;
 }
 
 /* projects
 -------------------------------------------- */
 .projects {
   background-color: #f1faee;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "img head"
+    "img praf";
+  gap: 0 20px;
+  padding: 20px 0;
+}
+.grid-container img {
+  grid-area: img;
+}
+.grid-container h3 {
+  grid-area: head;
+}
+.grid-container p {
+  grid-area: praf;
 }
 
 /* work experience
@@ -55,10 +97,25 @@ header {
   background-size: cover;
   background-position: top right;
 }
+.education h2 {
+  margin-bottom: 15px;
+}
 
 /* contact
 -------------------------------------------- */
 footer {
   background-color: #262730;
   color: #f7fff7;
+  text-align: center;
+}
+footer a {
+  padding: 20px;
+  margin: 20px;
+  display: inline-block;
+}
+.flex-junior {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
 }
