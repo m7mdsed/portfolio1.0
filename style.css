@@ -60,6 +60,9 @@ header {
   color: #f7fff7;
   text-align: center;
 }
+header h2 {
+  padding-bottom: 20px;
+}
 
 /* projects
 -------------------------------------------- */
@@ -79,9 +82,12 @@ header {
 }
 .grid-container h3 {
   grid-area: head;
+  height: 45px;
 }
 .grid-container p {
   grid-area: praf;
+  height: 180px;
+  margin: 0;
 }
 
 /* work experience
